@@ -1,0 +1,18 @@
+print("╔══════════════════════════════════╗")
+print("║       🌷 AI STUDY MENTOR        ║")
+print("╚══════════════════════════════════╝")
+
+name = input("What's your name? ")
+
+print(f"\nHey {name}! Welcome to your Study Mentor. 📚")
+
+subject = input("What subject are you studying today? ")
+hours = float(input("How many hours can you study today? "))
+
+print("\n✨ YOUR STUDY PROFILE")
+print("----------------------------")
+print(f"Student: {name}")
+print(f"Subject: {subject}")
+print(f"Available study time: {hours} hours")
+
+print(f"\nLet's make those {hours} hours count! 🌱")
